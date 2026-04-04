@@ -1,0 +1,14 @@
+{
+  "_comment": "Merge these into your ~/.claude/settings.json",
+
+  "enabledPlugins": {
+    "honcho@honcho": true
+  },
+
+  "extraKnownMarketplaces": {
+    "honcho": {
+      "url": "https://api.honcho.dev/v1/marketplace",
+      "name": "Honcho"
+    }
+  }
+}

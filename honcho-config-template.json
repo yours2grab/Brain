@@ -1,0 +1,17 @@
+{
+  "sessions": {
+    "/path/to/your/vault": "yourname-vault-name"
+  },
+  "hosts": {
+    "claude_code": {
+      "workspace": "claude-code-memory",
+      "aiPeer": "claude-code",
+      "enabled": true,
+      "logging": true,
+      "saveMessages": true,
+      "contextRefresh": {
+        "messageThreshold": 1
+      }
+    }
+  }
+}
