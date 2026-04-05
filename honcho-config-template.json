@@ -8,9 +8,9 @@
       "aiPeer": "claude-code",
       "enabled": true,
       "logging": true,
-      "saveMessages": true,
+      "saveMessages": false,
       "contextRefresh": {
-        "messageThreshold": 1
+        "messageThreshold": 10
       }
     }
   }

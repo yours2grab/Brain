@@ -44,6 +44,7 @@ Copy `honcho-config-template.json` to `~/.honcho/config.json`.
 Edit it:
 - Replace `/path/to/your/vault` with the actual path to your vault folder
 - Replace `yourname-vault-name` with something like `igor-brain` or `vinod-brain`
+- **Important:** `saveMessages` must be `false` — when `true`, Honcho's hooks dump every raw message into memory and auto-generate thousands of garbage conclusions. With `false`, Honcho still injects your profile/preferences every message and `create_conclusion()` still works for explicit saves.
 
 ### Step 5: Update Claude Code settings
 
